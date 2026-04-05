@@ -75,7 +75,7 @@ def generate_post_page(metadata, html_content, slug):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title} — Thu Ha Nguyen</title>
+    <title>{title} — Nguyen Thi Hai Ha</title>
     <meta name="description" content="{metadata.get('excerpt', '')}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,7 +87,7 @@ def generate_post_page(metadata, html_content, slug):
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="../index.html" class="nav-logo">Thu Ha N.</a>
+            <a href="../index.html" class="nav-logo">Hai Ha N.</a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -137,7 +137,7 @@ def generate_post_page(metadata, html_content, slug):
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             </a>
         </div>
-        <p class="footer-text">© 2026 Thu Ha Nguyen. Built with 💚</p>
+        <p class="footer-text">© 2026 Nguyen Thi Hai Ha. Built with 💛</p>
     </footer>
 
     <script src="../js/main.js"></script>
@@ -202,8 +202,8 @@ def generate_blog_index(cards_html):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog — Thu Ha Nguyen</title>
-    <meta name="description" content="Clinical rotation experiences and hospital blog posts by Thu Ha Nguyen.">
+    <title>Blog — Nguyen Thi Hai Ha</title>
+    <meta name="description" content="Clinical rotation experiences and hospital blog posts by Nguyen Thi Hai Ha.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -214,7 +214,7 @@ def generate_blog_index(cards_html):
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">Thu Ha N.</a>
+            <a href="index.html" class="nav-logo">Hai Ha N.</a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -255,7 +255,7 @@ def generate_blog_index(cards_html):
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             </a>
         </div>
-        <p class="footer-text">© 2026 Thu Ha Nguyen. Built with 💚</p>
+        <p class="footer-text">© 2026 Nguyen Thi Hai Ha. Built with 💛</p>
     </footer>
 
     <script src="js/main.js"></script>

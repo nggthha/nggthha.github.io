@@ -1,13 +1,13 @@
 /* ===== CSS Custom Properties ===== */
 :root {
-  /* Pastel Green Palette */
-  --green-50: #f0faf4;
-  --green-100: #e0f5e9;
-  --green-200: #c8e6c9;
-  --green-300: #a8d5ba;
-  --green-400: #81c784;
-  --green-500: #66bb6a;
-  --green-600: #4caf50;
+  /* Pastel Yellow Palette */
+  --green-50: #fffef5;
+  --green-100: #fef9e0;
+  --green-200: #fdf0c4;
+  --green-300: #f5e0a0;
+  --green-400: #e8cc6e;
+  --green-500: #d4b545;
+  --green-600: #c9a625;
 
   /* Neutrals */
   --white: #ffffff;
@@ -23,9 +23,9 @@
   --gray-900: #2c2c2c;
 
   /* Accent */
-  --accent: #2e7d52;
-  --accent-light: #4caf6a;
-  --accent-dark: #1b5e3b;
+  --accent: #8a6d1b;
+  --accent-light: #b8952e;
+  --accent-dark: #6b5315;
 
   /* Typography */
   --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -139,10 +139,10 @@ body::after {
   z-index: 1000;
   padding: var(--space-md) var(--space-xl);
   transition: all var(--transition-normal);
-  background: rgba(240, 250, 244, 0.6);
+  background: rgba(255, 254, 245, 0.6);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(168, 213, 186, 0.3);
+  border-bottom: 1px solid rgba(245, 224, 160, 0.3);
 }
 
 .navbar.scrolled {
@@ -192,7 +192,7 @@ body::after {
 
 .nav-links a:hover {
   color: var(--accent);
-  background: rgba(168, 213, 186, 0.2);
+  background: rgba(245, 224, 160, 0.2);
 }
 
 .nav-links a.active {
@@ -258,7 +258,7 @@ body::after {
   position: absolute;
   inset: 0;
   border-radius: var(--radius-full);
-  background: linear-gradient(135deg, rgba(168, 213, 186, 0.1) 0%, transparent 50%);
+  background: linear-gradient(135deg, rgba(245, 224, 160, 0.1) 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -344,12 +344,12 @@ body::after {
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   color: var(--white);
-  box-shadow: 0 4px 14px rgba(46, 125, 82, 0.25);
+  box-shadow: 0 4px 14px rgba(138, 109, 27, 0.25);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(46, 125, 82, 0.35);
+  box-shadow: 0 6px 20px rgba(138, 109, 27, 0.35);
   color: var(--white);
 }
 
@@ -405,7 +405,7 @@ body::after {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(168, 213, 186, 0.25);
+  border: 1px solid rgba(245, 224, 160, 0.25);
   padding: var(--space-xl);
   box-shadow: var(--shadow-md);
   transition: all var(--transition-normal);
@@ -414,7 +414,7 @@ body::after {
 .glass-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(168, 213, 186, 0.45);
+  border-color: rgba(245, 224, 160, 0.45);
 }
 
 /* ===== Highlights Grid (Home Page) ===== */
@@ -511,7 +511,7 @@ body::after {
 .timeline-item:hover .timeline-dot {
   background: var(--green-400);
   transform: scale(1.15);
-  box-shadow: 0 0 0 6px rgba(129, 199, 132, 0.2);
+  box-shadow: 0 0 0 6px rgba(232, 204, 110, 0.2);
 }
 
 .timeline-card {
