@@ -139,14 +139,14 @@ body::after {
   z-index: 1000;
   padding: var(--space-md) var(--space-xl);
   transition: all var(--transition-normal);
-  background: rgba(232, 242, 255, 0.78);
+  background: rgba(212, 229, 252, 0.84);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(143, 189, 248, 0.35);
+  border-bottom: 1px solid rgba(116, 167, 236, 0.45);
 }
 
 .navbar.scrolled {
-  background: rgba(219, 234, 255, 0.94);
+  background: rgba(200, 221, 250, 0.96);
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   box-shadow: var(--shadow-md);
